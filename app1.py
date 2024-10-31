@@ -12,8 +12,7 @@ with col1:
       st.write('- 양수: (+) / 음수: (-) 부호가 붙음')
       st.write('- 부호: (+)는 생략 가능 /(-)는 생략 불가')
 with col2:
-      st.image('수학이미지.PNG')  # 이미지 파일 불러오기
-
+      st.image('수학이미지.PNG') 
 a = st.number_input('수를 입력하세요', value= 0)  
 
 if st.button('양수일까 음수일까?'):
